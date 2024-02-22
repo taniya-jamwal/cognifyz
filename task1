@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Simple Webpage</h1>
+    </header>
+    
+    <section class="content">
+        <div class="content-item">
+            <h2>About Me</h2>
+            <p>I'm Taniya Jamwal, Front-end Developer live in Jammu</p>
+        </div>
+        
+        <div class="content-item">
+            <h2>My Picture</h2>
+        </div>
+    </section>
+    
+    <section class="form">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
